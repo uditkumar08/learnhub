@@ -7,5 +7,7 @@ dynamic_prompt = PromptTemplate(
 )
 
 prompt_text = dynamic_prompt.format(topic="Manifestation",style="real incident")
+prompt_text1 = dynamic_prompt.format(topic="AI",style="For unaware people")
 
 print(prompt_text)
+print(prompt_text1)
